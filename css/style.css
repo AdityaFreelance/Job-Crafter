@@ -61,7 +61,10 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: #fff;
+    background-image: linear-gradient(180deg, rgba(248, 120, 1, 0.99) 0%, #F0E700 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 ul.navbar-nav {
@@ -369,11 +372,10 @@ span.content {
 
 .locationSlider-container ul {
     justify-content: center;
+    margin-inline: -60px;
 }
 
-.locationSlider-container ul li+li {
-    margin-left: 8%;
-}
+
 
 span.location-detail {
     display: inline-flex;
@@ -384,6 +386,7 @@ span.location-detail {
     font-weight: 600;
     line-height: 40px;
     margin-bottom: 40px;
+    margin-inline: 60px;
 }
 
 span.location-detail::before {
@@ -413,7 +416,8 @@ li.skillPlan {
     border-radius: 12px;
     padding: 18px 20px;
 }
-.skillBox:hover{
+
+.skillBox:hover {
     box-shadow: 0px 4px 4px 0px #F0E700;
 }
 
@@ -466,19 +470,211 @@ li.skillPlan {
     align-items: flex-start;
     width: 100%;
 }
-.skillLearn ul li::before{
-content: "";
-width: 20px;
-height: 20px;
-background-image: url(../images/check.png);
-background-repeat: no-repeat;
-background-position: center center;
-background-size: contain;
-display: inline-block;
+
+.skillLearn ul li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/check.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: inline-block;
 }
+
 .skillLearn {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* ourSkill-wrapper Css End  */
+/* upcomingJob-wrapper Css Start */
+section.upcomingJob-wrapper .section-heading,
+.ourStudent-wrapper .section-heading {
+    margin-bottom: 40px;
+}
+
+.upcomingBatches-box {
+    padding-inline: 20px;
+}
+
+.upcoming-batches {
+    margin-inline: -20px;
+}
+
+.upcomingBatches-content {
+    background-color: #2B2E2E;
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+.upcomingBatches-cover {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+
+.upcomingBatches-cover h3 {
+    font-family: "Public Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.upcomingBatches-cover p {
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 0px;
+    color: #000;
+}
+
+.customBtn {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+    padding: 13px 15px;
+    color: #fff;
+    background-color: #2F9BE1;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.customBtn span {
+    font-weight: 700;
+}
+
+.customBtn:hover {
+    color: #fff;
+}
+
+ul.slick-dots li button {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0px;
+    border: 0px;
+}
+
+ul.slick-dots {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    gap: 0px 12px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+ul.slick-dots li.slick-active button {
+    width: 30px;
+    border-radius: 100px;
+    background-color: #F0E700;
+}
+
+/* upcomingJob-wrapper Css End */
+/* ourStudent-wrapper Css Start */
+.popular-video iframe {
+    width: 100% !important;
+    height: 700px;
+}
+
+.popular-video {
+    margin-bottom: 40px;
+}
+
+.videosList .custom-row {
+    margin-inline: -40px;
+    gap: 40px 0px;
+}
+
+.videosList .custom-row .ps-1 {
+    padding-left: 40px !important;
+}
+
+.videosList .custom-row .pe-1 {
+    padding-right: 40px !important;
+}
+
+.videoCover {
+    background-color: #161622;
+    padding: 48px 24px;
+}
+
+.video-heading h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.25px;
+}
+
+.video-heading p {
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 39px;
+    margin-bottom: 20px;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 400px;
+}
+
+/* ourStudent-wrapper Css End */
+/* Footer Css Start */
+footer {
+    background-color: #000;
+}
+
+.footerMenu ul li {
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.footerMenu ul li:hover{
+    background-image: linear-gradient(180deg, rgba(248, 120, 1, 0.99) 0%, #F0E700 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.footerMenu ul {
+    align-items: center;
+    gap: 0px 30px;
+    margin-bottom: 0px;
+}
+
+.footercopyright p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 0px;
+    align-items: baseline;
+}
+.footercopyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
