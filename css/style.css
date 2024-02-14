@@ -137,7 +137,7 @@ a.navbar-brand img {
 }
 
 header {
-    background-color: #000;
+    background-color: #000000ab;
 }
 
 header {
@@ -154,6 +154,7 @@ header.sticky {
     left: 0;
     width: 100%;
     z-index: 1000;
+    background-color: #000;
 }
 
 /* Header Css End */
@@ -284,7 +285,13 @@ span.content {
 .choose-wrapper .custom-row {
     margin-inline: -30px;
 }
-
+section.choose-wrapper .section-heading {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
 .wondering-wrapper .custom-row .ps-1,
 .choose-wrapper .custom-row .ps-1 {
     padding-left: 30px !important;

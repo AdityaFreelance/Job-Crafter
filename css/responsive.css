@@ -361,4 +361,667 @@
     .choose-wrapper .custom-row .ps-1 {
         padding-left: 20px !important;
     }
+
+    .chooseIcon {
+        width: 55px;
+        height: 55px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .chooseIcon img {
+        height: 22px;
+    }
+
+    .chooseBox h3 {
+        font-size: 19px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .chooseBox p {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .chooseBox {
+        min-height: 250px;
+        padding-inline: 20px;
+        border-radius: 10px;
+    }
+
+    span.location-detail {
+        gap: 0px 14px;
+        font-size: 25px;
+        line-height: 34px;
+        margin-bottom: 20px;
+        margin-inline: 30px;
+    }
+
+    .locationSlider-container ul {
+        margin-inline: -30px;
+    }
+
+    span.location-detail::before {
+        width: 17px;
+        height: 17px;
+        background-color: #F69A01;
+    }
+
+    ul.skillList {
+        margin-inline: -5px;
+    }
+
+    li.skillPlan {
+        width: 25%;
+        padding-inline: 5px;
+    }
+
+    .skillBox {
+        background-color: #2B2E2E;
+        border-radius: 10px;
+        padding: 15px 10px;
+    }
+
+    .skill-heading h3 {
+        font-family: "Public Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        margin-bottom: 8px;
+        color: #6544D8;
+    }
+
+    .skill-heading span {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .skillLearn h3 {
+        font-size: 14px;
+        margin-bottom: 9px;
+        width: 100%;
+    }
+
+    .skillLearn ul li::before {
+        width: 13px;
+        height: 13px;
+    }
+
+    .skillLearn ul li {
+        font-size: 13px;
+        gap: 0px 5px;
+        align-items: center;
+    }
+
+    .popular-video iframe {
+        width: 100% !important;
+        height: 500px;
+    }
+
+    .videoCover {
+        background-color: #161622;
+        padding: 30px 18px;
+    }
+
+    .video-heading h3 {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.25px;
+    }
+
+    .video-heading p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 18px;
+    }
+
+    .videosList .custom-row {
+        margin-inline: -20px;
+        gap: 25px 0px;
+    }
+
+    .videosList .custom-row .pe-1 {
+        padding-right: 20px !important;
+    }
+
+    .videosList .custom-row .ps-1 {
+        padding-left: 20px !important;
+    }
+
+    .footerMenu ul li {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .footer-container {
+        gap: 30px 0px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    a.navbar-brand img {
+        height: 65px;
+    }
+
+    a.nav-link {
+        font-size: 16px;
+    }
+
+    ul.navbar-nav {
+        gap: 0px 30px;
+    }
+
+    .custom-btn {
+        border: 2px solid;
+        border-image: linear-gradient(180deg, #F87701 0%, #F0E700 100%);
+        border-image-slice: 2;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 7px 14px;
+        font-size: 16px;
+    }
+
+    .banner-heading h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .banner-heading p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 18px;
+        padding-right: 15%;
+    }
+
+    .banner-wrapper .custom-row {
+        margin-inline: -15px;
+    }
+
+    .banner-wrapper .custom-row .ps-1 {
+        padding-left: 15px !important;
+    }
+
+    .banner-wrapper .custom-row .pe-1 {
+        padding-right: 15px !important;
+    }
+
+    .banner-wrapper {
+        height: 520px;
+        padding-top: 12%;
+    }
+
+    .pBlock {
+        padding-block: 40px;
+    }
+
+    .empower-wrapper .custom-row {
+        margin-inline: -15px;
+    }
+
+    .empower-wrapper .custom-row .pe-1 {
+        padding-right: 15px !important;
+    }
+
+    .empower-wrapper .custom-row .ps-1 {
+        padding-left: 15px !important;
+    }
+
+    .section-heading h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+
+    span.content {
+        font-size: 16px;
+        width: 100%;
+        padding: 0px 40px;
+        height: 100px;
+        border-radius: 5px;
+        line-height: 26px;
+    }
+
+    .section-heading p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .wondering-wrapper .custom-row,
+    .choose-wrapper .custom-row {
+        margin-inline: -15px;
+    }
+
+    .wondering-wrapper .custom-row .pe-1,
+    .choose-wrapper .custom-row .pe-1 {
+        padding-right: 15px !important;
+    }
+
+    .wondering-wrapper .custom-row .ps-1,
+    .choose-wrapper .custom-row .ps-1 {
+        padding-left: 15px !important;
+    }
+
+    .pBlock-40 {
+        padding-block: 30px;
+    }
+
+    .location-wrapper .section-heading,
+    .oursSkill-wrapper .section-heading {
+        margin-bottom: 30px;
+    }
+
+    span.location-detail {
+        gap: 0px 10px;
+        font-size: 21px;
+        line-height: 31px;
+        margin-bottom: 15px;
+        margin-inline: 20px;
+    }
+
+    span.location-detail::before {
+        width: 15px;
+        height: 15px;
+        background-color: #F69A01;
+    }
+
+    .locationSlider-container ul {
+        margin-inline: -20px;
+    }
+
+    li.skillPlan {
+        width: 33.33%;
+        padding-inline: 5px;
+    }
+
+    ul.skillList {
+        margin-inline: -5px;
+        gap: 20px 0px;
+        justify-content: center;
+    }
+
+    .upcomingBatches-cover h3 {
+        font-size: 19px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .upcomingBatches-box {
+        padding-inline: 10px;
+    }
+
+    .upcoming-batches {
+        margin-inline: -10px;
+    }
+
+    .video-box iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .videoCover {
+        background-color: #161622;
+        padding: 25px 15px;
+    }
+
+    .videosList .custom-row {
+        margin-inline: -15px;
+        gap: 20px 0px;
+    }
+
+    .videosList .custom-row .pe-1 {
+        padding-right: 15px !important;
+    }
+
+    .videosList .custom-row .ps-1 {
+        padding-left: 15px !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    a.nav-link {
+        font-size: 15px;
+    }
+
+    ul.navbar-nav {
+        gap: 0px 15px;
+    }
+
+    .custom-btn {
+        border: 2px solid;
+        border-image: linear-gradient(180deg, #F87701 0%, #F0E700 100%);
+        border-image-slice: 2;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 6px 13px;
+        font-size: 15px;
+    }
+
+    .banner-heading h1 {
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 11px;
+    }
+
+    .banner-heading p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 18px;
+        padding-right: 0%;
+    }
+
+    .banner-wrapper {
+        height: 450px;
+        padding-top: 13%;
+    }
+
+    .pBlock {
+        padding-block: 30px;
+    }
+
+    .upcomingBatches-cover h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .customBtn {
+        font-size: 15px;
+        width: 100%;
+        padding: 13px 15px;
+        border-radius: 8px;
+    }
+
+    .upcomingBatches-cover p {
+        font-size: 15px;
+        line-height: 17px;
+        color: #000;
+    }
+
+    section.upcomingJob-wrapper .section-heading,
+    .ourStudent-wrapper .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .popular-video iframe {
+        width: 100% !important;
+        height: 400px;
+    }
+
+    .video-heading h3 {
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 0.25px;
+    }
+
+    .video-heading p {
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 18px;
+    }
+
+    .footerMenu ul {
+        align-items: center;
+        gap: 0px 20px;
+        margin-bottom: 0px;
+    }
+
+    .footerMenu ul li {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:993px) {
+    button.navbar-toggler .closeNavIcon {
+        display: none;
+    }
+
+    button.navbar-toggler,
+    button.navbar-toggler:focus {
+        padding: 0px !important;
+        box-shadow: none;
+        border: 0px;
+        outline: none;
+    }
+
+    button.navbar-toggler span {
+        background-image: linear-gradient(180deg, rgba(248, 120, 1, 0.99) 0%, #F0E700 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 32px;
+    }
+
+    button.navbar-toggler.activeBtn .closeNavIcon {
+        display: inline-block !important;
+    }
+
+    button.navbar-toggler.activeBtn .openNavIcon {
+        display: none !important;
+    }
+
+    .memberBox {
+        margin-right: 50px;
+    }
+
+    button.navbar-toggler {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+    }
+
+    .navbar-collapse.show,
+    .navbar-collapse.collapsing {
+        position: absolute;
+        top: 89px;
+        width: 100%;
+        padding: 15px;
+        background-color: #000000;
+    }
+
+    ul.navbar-nav {
+        gap: 14px 0px;
+    }
+
+    .banner-heading h1 {
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 10px;
+    }
+
+    .banner-wrapper {
+        height: 450px;
+        padding-top: 17%;
+    }
+
+    .custom-btn {
+        border: 2px solid;
+        border-image: linear-gradient(180deg, #F87701 0%, #F0E700 100%);
+        border-image-slice: 2;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+
+    .chooseBox {
+        min-height: 250px;
+        padding-inline: 15px;
+        border-radius: 10px;
+    }
+
+    .chooseIcon {
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .chooseIcon img {
+        height: 20px;
+    }
+
+    .chooseBox h3 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+
+    .chooseBox p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .chooseBox {
+        min-height: 235px;
+        padding-inline: 15px;
+        border-radius: 10px;
+    }
+
+    span.location-detail {
+        gap: 0px 10px;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 14px;
+        margin-inline: 20px;
+    }
+
+    li.skillPlan {
+        width: 50%;
+        padding-inline: 5px;
+    }
+
+    .footerlogo {
+        width: 100%;
+    }
+
+    .footer-container {
+        gap: 30px 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .banner-wrapper .custom-row,
+    .empower-wrapper .custom-row,
+    .wondering-wrapper .custom-row,
+    .choose-wrapper .custom-row {
+        gap: 30px 0px;
+    }
+
+    .banner-wrapper {
+        height: auto;
+        padding-top: 17%;
+        padding-bottom: 30px;
+    }
+
+    .banner-heading,
+    section.choose-wrapper .section-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    section.choose-wrapper .section-heading br {
+        display: none;
+    }
+    .choose-reasonBox {
+        margin-top: 30px;
+    }
+    .location-wrapper .section-heading, .oursSkill-wrapper .section-heading {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:676px){
+    .banner-heading {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:575px){
+    .banner-heading h1 {
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+    .section-heading h2 {
+        font-size: 27px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .choose-reasonBox ul li {
+        width: 100%;
+        margin-top: 0px !important;
+    }
+    li.skillPlan {
+        width: 100%;
+        padding-inline: 5px;
+    }
+    .banner-heading {
+        padding-top: 35px;
+    }
+    span.location-detail {
+        gap: 0px 10px;
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 14px;
+        margin-inline: 20px;
+    }
+    .popular-video iframe {
+        width: 100% !important;
+        height: 350px;
+    }
+    .footerMenu ul {
+        align-items: center;
+        gap: 10px 0px;
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+    .footer-container {
+        gap: 20px 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width:475px){
+    .banner-heading h1 {
+        font-size: 24px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .section-heading h2 {
+        font-size: 24px;
+        line-height: 31px;
+        margin-bottom: 20px;
+    }
 }

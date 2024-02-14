@@ -11,6 +11,14 @@ function stickyHeader() {
         header.classList.remove("sticky");
     }
 }
+// Header button collapse
+document.addEventListener("DOMContentLoaded", function() {
+    const navbarToggleBtn = document.querySelector(".navbar-toggler");
+
+    navbarToggleBtn.addEventListener("click", function() {
+        this.classList.toggle("activeBtn");
+    });
+});
 
 
 
@@ -43,18 +51,18 @@ $(document).ready(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 993,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 676,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1
                 }
             },
