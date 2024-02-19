@@ -285,6 +285,7 @@ span.content {
 .choose-wrapper .custom-row {
     margin-inline: -30px;
 }
+
 section.choose-wrapper .section-heading {
     display: flex;
     flex-direction: column;
@@ -292,6 +293,7 @@ section.choose-wrapper .section-heading {
     justify-content: center;
     align-items: flex-start;
 }
+
 .wondering-wrapper .custom-row .ps-1,
 .choose-wrapper .custom-row .ps-1 {
     padding-left: 30px !important;
@@ -654,12 +656,14 @@ footer {
     font-weight: 400;
     line-height: 24px;
 }
-.footerMenu ul li:hover{
+
+.footerMenu ul li:hover {
     background-image: linear-gradient(180deg, rgba(248, 120, 1, 0.99) 0%, #F0E700 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
+
 .footerMenu ul {
     align-items: center;
     gap: 0px 30px;
@@ -673,6 +677,7 @@ footer {
     line-height: 24px;
     margin-bottom: 0px;
 }
+
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -680,8 +685,186 @@ footer {
     gap: 40px 0px;
     align-items: baseline;
 }
+
 .footercopyright {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+
+/* Contact Page Css */
+section.contactBanner-wrapper {
+    padding-top: 11%;
+}
+
+section.contactBanner-wrapper .banner-heading {
+    margin-bottom: 70px;
+}
+
+.contactWrapper .custom-row {
+    margin-inline: -50px;
+}
+
+.contactWrapper .custom-row .ps-1 {
+    padding-left: 50px !important;
+}
+
+.contactWrapper .custom-row .pe-1 {
+    padding-right: 50px !important;
+}
+
+.contact-form h2,
+.map-heading h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.contact-form p,
+.map-heading p {
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.formContainer-field .form-group .form-control,
+.form-group .form-select {
+    height: 80px;
+    background-color: #2B2E2E;
+    border: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    border-radius: 0px;
+    padding-left: 20px;
+}
+
+.formContainer-field .form-group .form-control::placeholder,
+.form-group .form-select {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+textarea.form-control {
+    height: 200px !important;
+    padding: 20px;
+    resize: none;
+}
+
+.form-container .col-12+.col-12 .formContainer-field {
+    margin-top: 20px;
+}
+
+.form-check input.form-check-input {
+    border: 1px solid #fff;
+    border-radius: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.form-check {
+    display: flex;
+    min-height: auto;
+    margin-bottom: 30px;
+}
+
+.contactWrapper .form-check label.form-check-label {
+    width: calc(100% - 20px);
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.submit-button input.custom-btn {
+    background-color: transparent !important;
+}
+.section-images img {
+    width: 100%;
+}
+
+
+
+/* Blog Page Css */
+.contactBanner-wrapper .banner-heading h1{
+    text-transform: uppercase;
+}
+.blog-wrapper .custom-row{
+    margin-inline: -22px;
+}
+.blog-wrapper .custom-row .ps-1{
+    padding-left: 22px !important;
+}
+.blog-wrapper .custom-row .pe-1{
+    padding-right: 22px !important;
+}
+.blog-images{
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+span.dateIcon {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+span.date {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    display: inline-block;
+}
+.dateBox {
+    display: inline-flex;
+    align-items: center;
+    gap: 0px 14px;
+    margin-bottom: 15px;
+}
+.blog-images img {
+    width: 100%;
+    border-radius: 10px;
+}
+.blog-content h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+.blog-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.blog-wrapper .row{
+    gap: 44px 0px;
+}
+section.recentBLog-wrapper .custom-row {
+    margin-inline: -30px;
+}
+section.recentBLog-wrapper .custom-row .ps-1{
+    padding-left: 30px !important;
+}
+section.recentBLog-wrapper .custom-row .pe-1{
+    padding-right: 30px !important;
+}
+.recentBlog-content h3 {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 7px;
+}
+.recentBlog-content p {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 15px;
 }
